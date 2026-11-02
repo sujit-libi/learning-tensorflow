@@ -350,3 +350,13 @@ _Fixes for overfitting and underfitting_
 2. Keep the test set separate at all costs
 3. Compare apples to apples
 4. One best performance metric does not equal best model
+
+# Experimentation
+
+- How could we improve/what can we try next?
+
+# Tools we will use
+
+- Your Computer
+- Anaconda
+- jupyter, matplotlib, numpy, pandas, scikit-learn, tensorflow, pytorch, xgboost
