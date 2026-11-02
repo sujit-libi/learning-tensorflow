@@ -112,3 +112,72 @@ _\*Iterative process_
 - Supervised Learning: I know my inputs and outputs
 - Unsupervised Learning: I am not sure of the outputs but I have inputs
 - Transfer Learning: I think my problem may be similar to something else
+
+# Types of Data
+
+= What kind of data do we have
+
+**Different types of data**
+
+- Structured
+- Unstructured
+
+_Note:_
+
+- Static: Which do not change over time
+- The more data the better
+- Streaming: Constantly change over time
+
+_A data science workflow_
+static data => jupyter => pandas => data analysis => matplotlib => machine learning models => heart disease
+
+_What kind of data do you use?_
+
+# Types of Evaluation
+
+- What defines success for us?
+- For this project to be worth pursuing further, we need a machine learning model with over 99% accuracy.
+
+Table 1.0: Patient records => Machine Learning model => heart disease (Accuracy: 97.8%)
+
+**Different types of metrics**
+
+| Classification | Regression                     | Recommendation |
+| -------------- | ------------------------------ | -------------- |
+| Accuracy       | Mean absolute error (MAE)      | Precision at K |
+| Precision      | Mean squared error (MSE)       |                |
+| Recall         | Root mean squared error (RMSE) |                |
+
+**Classifying car insurance claims**
+
+Table 2.0" Car insurance claims => Machine Learning model (had to try a few of these) => Minimum accuarcy > 95%
+
+**What do you measure?**
+
+# Features in Data
+
+- What do we already know about the data?
+
+**Different features of data**
+
+| ID   | Weight | Sex | Heart Rate | Chest Pain | Heart Disease |
+| ---- | ------ | --- | ---------- | ---------- | ------------- |
+| 4326 | 110kg  | M   | 81         | 4          | Yes           |
+| 5681 | 64kg   | F   | 61         | 1          | No            |
+| 7911 | 81 kg  | M   | 57         | 0          | No            |
+
+_Table 1.0: Patient records_
+
+- Feature variables: Weight, Sex, Heart Rate, Chest Pain
+- target variable: Heart diseases
+
+- Numerical feature: Weight, Heart Rate, Chest Pain
+- Categorical features: Sex, Heart Disease
+- Drived feature: Visit in last year (Categorical feature)
+
+_Keynotes:_
+
+- Feature enginerring: Looking at different features of data and creating new ones/altering existing one
+- Feature coverage: Home many samples have different features? Ideally, every sample has the same features. Want > 10% coverage
+
+_What are features of your problems?_
